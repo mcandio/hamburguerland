@@ -1,10 +1,8 @@
 .contenedor__debajodesobrenosotros {
-  
-  }
 }
-
 
 .imagen__debajodesobrenosotros {
+  height: 100%;
   width: 100%;
+  object-fit: cover;
 }
-
