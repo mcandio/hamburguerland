@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Rokkitt:wght@400;600&display=swap');
+
+@import url(./normalize.css);
+@import url(./header.css);
+@import url(./hero.css);
+@import url(./main.css);
+@import url(./footer.css);
+@import url(./carrusel.css);
+@import url(./mapa.css);
+@import url(./imagendebajodenosotros.css);
+
+:root {
+  --primario: #ffb600;
+  --secundario: #f1ecec;
+  --negro: #000;
+  --blanco: #fff;
+
+  --fuentePrincipal: 'Rokkitt', serif;
+  --fuenteSecundaria:'Lato', sans-serif;
+}
+
+
+
+/* Globales */
+html {
+  font-size: 62.5%;
+  box-sizing: border-box; /*hack para Box Model*/
+}
+
+*{
+  scroll-behavior: smooth;
+}
+
+*
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 16px; /* cada 1rem = 10px vale */
+  /*font-family: var(--fuentePrincipal);*/
+  font-family: 'Rokkitt', serif;
+}
+
+a {
+  text-decoration: none;
+  list-style: none;
+  color: var(--blanco);
+}
+
+.contenedor {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.sombra {
+  box-shadow: 0px 5px 15px 0px rgba(112, 112, 112, 0.38);
+  background-color: var(--blanco);
+}
+
+.oscurecer-img{
+  filter: brightness(60%);
+}
+
+

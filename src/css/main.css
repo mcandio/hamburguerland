@@ -1,0 +1,59 @@
+.bg__main {
+  background-color: var(--primario);
+}
+
+.main__tittle {
+  font-family: var(--fuenteSecundaria);
+  max-width: min-content;
+  padding-top: 5rem;
+  font-size: 5rem;
+  margin: 0 6rem 4.8rem;
+}
+
+@media screen and (min-width: 768px) {
+  .main__tittle {
+    margin: 0 26rem 4.8rem;
+    font-size: 6rem;
+  }
+}
+
+.main__container {
+  width: 30rem;
+  font-size: 2rem;
+  margin: auto;
+}
+
+.main__tittle--nosotros {
+  font-weight: bold;
+}
+.main__lineTittle {
+  border-bottom: 0.4rem solid var(--negro);
+  width: 60%;
+  margin-top: 0.6rem;
+}
+
+.main__icon {
+  width: 3.5rem;
+  margin-left: 1rem;
+}
+
+.main__contentTittle {
+  display: flex;
+  font-size: 3rem;
+  align-items: center;
+}
+
+.main__contenido {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .main__contenido {
+    display: grid;
+    grid-template-columns: repeat(2, 40%);
+    justify-content: center;
+    gap: 2rem;
+  }
+}

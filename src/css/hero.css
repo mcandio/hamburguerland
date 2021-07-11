@@ -1,0 +1,66 @@
+.hero__icons-responsive {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  font-size: 2.5rem;
+  margin-top: 2.5rem;
+}
+
+.hero__iconSocial-responsive {
+  margin: 0.5rem 3rem;
+}
+
+.hero {
+  background-image: url(../img/hero/hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  position: relative;
+  padding-bottom: 2rem;
+}
+
+.hero__logo {
+  width: 22.5rem;
+}
+
+.hero__icons {
+  display: none;
+  font-size: 3.5rem;
+  padding-top: 4rem;
+  position: fixed;
+  top: auto;
+  right: 0;
+  z-index: 400;
+}
+@media screen and (min-width: 768px) {
+  .hero__icons {
+    display: block;
+    text-align: right;
+    letter-spacing: 0.4rem;
+    padding-right: 10rem;
+  }
+  .hero__logo {
+    width: 36rem;
+  }
+  .hero__logoTextos span {
+    font-size: 6rem;
+  }
+}
+
+.contenido__hero {
+  position: absolute;
+  background-color: rgb(0 0 0 / 60%);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero__logoTextos {
+  color: var(--blanco);
+  font-size: 4rem;
+  width: min-content;
+  text-align: center;
+}
